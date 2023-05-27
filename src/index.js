@@ -14,7 +14,7 @@ app.get('/dados', (req, res) => {
   
   
 
-const port = 4004;
+const port = 80;
 app.listen(port, () => {
   console.log(`Servidor ouvindo na porta ${port}`);
 });
